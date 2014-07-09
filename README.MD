@@ -1,1 +1,1 @@
-Creating a new universal college platform to revamp the current system
+This is the README stayed tuned for more INFO
