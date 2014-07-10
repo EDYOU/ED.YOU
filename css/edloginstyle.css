@@ -13,9 +13,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'oswaldlight';
     src: url('fonts/oswald-light-webfont.eot');
@@ -25,13 +22,15 @@
          url('fonts/oswald-light-webfont.svg#oswaldlight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*///////////////////////////////////////////*/
 /*GENERAL CSS*/
 /*///////////////////////////////////////////*/
 
+html, body {
+	background: url('../light_wool.png') repeat;
+}
 
 body {
   padding-top: 40px;
