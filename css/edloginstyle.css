@@ -1,0 +1,92 @@
+/*///////////////////////////////////////////*/
+/*FONTS*/
+/*///////////////////////////////////////////*/
+@font-face {
+	font-family: 'Oswald-light';
+	src: url('fonts/Oswald-Light.otf');
+}
+
+@font-face {
+	font-family: 'Oswald-reg';
+	src: url('fonts/Oswald-Regular.otf');
+}
+
+
+/*///////////////////////////////////////////*/
+/*GENERAL CSS*/
+/*///////////////////////////////////////////*/
+
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.title {
+	padding: 0;
+	margin: 0 auto;
+	width:
+}
+
+.ed-title {
+	
+	font-family: 'Oswald-reg';
+	font-size: 8em;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ed-slogan {
+	margin: 0 auto;
+	padding: 0 2px;
+	text-align: center;
+}
+
+#edfblogin  {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+
+/*///////////////////////////////////////////*/
+/*FORM CSS*/
+/*///////////////////////////////////////////*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
