@@ -82,3 +82,23 @@ html, body {
 .list-group-item {
 	font-family: 'open_sanslight';
 }
+
+.ed-bk-btn {
+	
+	width: 100%;
+	font-size: 20px;
+	
+}
+
+.ed-bk-btn:hover {
+	color: #668C72;
+}
+
+.ed-pg-book-row {
+	border: 1px solid #e7e7e7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	margin:0 ; 
+}

@@ -3,11 +3,12 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>ED.YOU</title>
+	<title>BOOK.YOU</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/edpgstyle.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+
 	<!--<link rel="stylesheet" href="css/bootstrap-theme.css"> -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,7 +31,7 @@
 	<div class="row ed-pg-row">
 		<div style="width: 100%" class="col-xs-12 col-md-8">
 			<div class="page-header">
-				<h1 class="ed-pg-title">ED.YOU</h1>
+				<h1 class="ed-pg-title">BOOK.YOU</h1>
 			</div>
 		</div>
 		
@@ -60,7 +61,7 @@
       					<ul class="nav nav-pills nav-stacked">
       						<!--<li><input type="text" class="form-control" placeholder="Search"></li> -->
 							<li class="nav-divider"></li>
-							<li class="ed-pg-active">
+							<li >
 								<a href="index.html">
 									<span class="glyphicon glyphicon-home"></span>
 									HOME.YOU
@@ -72,7 +73,7 @@
 									COURSE.YOU
 								</a>
 							</li>
-							<li>
+							<li class="ed-pg-active">
 								<a href="book.html">
 									<span class="glyphicon glyphicon-book"></span>
 									BOOK.YOU
@@ -93,44 +94,39 @@
 		</div>
 		<!--NAVBAR ENDS HERE-->
 
-		<!-- CUSTOM HTML FOR HOME.YOU -->
-		<div class="col-md-6 ed-pg-profile">
-			<div  class="row ed-pg-profile-row">
+		<!-- CUSTOM HTML FOR BOOK.YOU -->
+		<div class="col-md-6">
+			<div  class="row ed-pg-book-row">
+				<div class="col-xs-12 col-md-8">
+					<input type="text" class="form-control" placeholder="Search Books">
+					
+				</div>
 				<div class="col-xs-6 col-md-4">
-					<div class="thumbnail">
-						<img data-src="holder.js/100%x180" src="img/test1.jpg">
-					</div>
-				</div>
-
-				<div  class="col-xs-12 col-md-8">
-					<ul class="list-group">
-						<li class="list-group-item"><span class="glyphicon glyphicon-user"></span>&nbsp;Saleh Kaddoura</li>
-						<li class="list-group-item"><span class="glyphicon glyphicon-globe"></span>&nbsp;Santa Clara, California</li>
-						<li class="list-group-item"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;De Anza College</li>
-						<li class="list-group-item"><span class="glyphicon glyphicon-stats"></span>&nbsp;GPA: 3.68</li>
-						<li class="list-group-item"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Graduation: 2016</li>
-					</ul>
+					<button style="font-size: 16px; background-color: #8ABE9B; color: #4A6D8B; margin-top: -2px;" type="button" class="btn btn-success ed-bk-btn ">Sell Your Book</button>
 				</div>
 			</div>
-
-
-			<div  class="row ed-pg-profile-row">
-				<h1 style="text-align: center">REMINDERS CARD</h1>
+			<div class="row ed-pg-book-row">
+				<div style="width: 50%; margin: 0 auto;" class="dropdown">
+  					<button style="width: 100%;" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    					Pick your college
+    				<span class="caret"></span>
+  					</button>
+  						<ul style="width: 100%" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">San Jose State</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">San Francisco State</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">University of California Berkley</a></li>
+    						<li role="presentation" class="divider"></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">University of California San Francisco</a></li>
+  						</ul>
+				</div>
 			</div>
-
-			<div  class="row ed-pg-profile-row">
-				<h1 style="text-align: center">UPCOMING EVENTS CARD</h1>
-			</div>
-
-			<div  class="row ed-pg-profile-row">
-				<h1 style="text-align: center">SCHEDULE/CALENDAR CARD</h1>
-			</div>
+			
 		</div>
-		<!-- HOME.YOU ENDS HERE -->
+		<!-- BOOK.YOU ENDS HERE -->
 
 
 		<div class="col-md-3">
-			<input type="text" class="form-control" placeholder="Search">
+			<input type="text" class="form-control" placeholder="Search the site">
 		</div>
 	</div>
 	
@@ -144,4 +140,3 @@
 </body>
 
 </html>
-
