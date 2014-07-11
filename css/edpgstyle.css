@@ -21,11 +21,29 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body {
+	background: url('../notebook.png') repeat;
+}
+
+
 .ed-pg-title {
 	margin: 0 auto;
 	padding: 0;
 	font-family: 'oswaldbook';
-	font-size: 3em;
+	font-size: 5em;
 }
 
 .ed-pg-row {
@@ -33,10 +51,34 @@
 }
 
 .ed-pg-container {
-	margin-top: 10%;
+	margin-top: 3%;
 }
 
 .ed-pg-thumbnail {
 	height: ;
-	width: 180px;
+	width: 170px;
+	margin-bottom: 0px;
+}
+
+.ed-pg-profile {
+	
+	padding-top: 1px;
+	border-radius: 3px;
+}
+
+.ed-pg-profile-row {
+	border: 1px solid #e7e7e7;
+	padding-top: 5px;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.ed-pg-active {
+	background-color:  #8ABE9B;
+	border-radius: 6px;
+}
+
+.list-group-item {
+	font-family: 'open_sanslight';
 }

@@ -910,7 +910,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #4A6D8B; /*#428bca*/
   text-decoration: none;
 }
 a:hover,
@@ -1216,7 +1216,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #4A6D8B;
 }
 ul,
 ol {
@@ -1416,6 +1416,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 4px;
 }
 .row {
   margin-right: -15px;
@@ -4585,7 +4586,7 @@ a.list-group-item.active > .badge,
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4818,23 +4819,31 @@ a.thumbnail.active {
   list-style: none;
 }
 .list-group {
+  
   padding-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  margin-top: 4px;
 }
 .list-group-item {
+  color: #4A6D8B;
+  font-size: 1.4em;
   position: relative;
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color:  rgba(244,141,108,0.6);
+  /*border-bottom: 1px solid #4A6D8B;*/
+  /*border-top: 1px solid #4A6D8B;*/
+  /*#ddd, #fff*/
 }
 .list-group-item:first-child {
+  
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 .list-group-item:last-child {
   margin-bottom: 0;
+  
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
