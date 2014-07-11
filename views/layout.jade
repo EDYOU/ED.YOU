@@ -1,0 +1,62 @@
+﻿doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/edloginstyle.css')
+    link(rel='stylesheet', href='/stylesheets/edpgstyle.css')
+
+  body
+  block navBar
+   .container.ed-pg-container
+      // TITLE FOR EACH FEATURE / PAGE
+      .row.ed-pg-row
+        .col-xs-12.col-md-8(style='width: 100%')
+          .page-header
+            h1.ed-pg-title #{title}
+      .row
+        // NAVBAR STARTS HERE
+        .col-md-3
+          nav.navbar.navbar-default(role='navigation')
+            .container-fluid
+              // Brand and toggle get grouped for better mobile display
+              .navbar-header
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                  span.sr-only Toggle navigation
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+              #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                ul.nav.nav-pills.nav-stacked
+                  // <li><input type="text" class="form-control" placeholder="Search"></li>
+                  li.nav-divider
+                  li.ed-pg-active
+                    a(href='index.html')
+                      span.glyphicon.glyphicon-home &nbsp;
+                      | HOME.YOU
+                  li
+                    a(href='CourseGuide.html')
+                      span.glyphicon.glyphicon-pencil &nbsp;
+                      | COURSE.YOU
+                  li
+                    a(href='book.html')
+                      span.glyphicon.glyphicon-book &nbsp;
+                      | BOOK.YOU
+                  li.nav-divider
+                  li
+                    a(href='#')
+                      span.glyphicon.glyphicon-cog &nbsp;
+                      | SETTINGS
+        // NAVBAR ENDS HERE
+        // CUSTOM HTML FOR HOME.YOU
+    
+    
+   
+        block pageContent
+
+
+    //block script
+       script(src='javascripts/bootstrap.js')
+       script(src='javascripts/jquery-1.11.1.js')
+       script(src='javascripts/edyoujs.js')

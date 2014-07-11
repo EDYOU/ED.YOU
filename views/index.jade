@@ -1,0 +1,37 @@
+﻿extends layout
+
+
+block pageContent
+   .col-md-6.ed-pg-profile
+      .row.ed-pg-profile-row
+        .col-xs-6.col-md-4
+          .thumbnail
+            img(data-src='holder.js/100%x180', src='img/test1.jpg')
+        .col-xs-12.col-md-8
+          ul.list-group
+            li.list-group-item
+              span.glyphicon.glyphicon-user &nbsp;
+              | Saleh Kaddoura
+            li.list-group-item
+              span.glyphicon.glyphicon-globe &nbsp;
+              | Santa Clara, California
+            li.list-group-item
+              span.glyphicon.glyphicon-map-marker &nbsp;
+              | De Anza College
+            li.list-group-item
+              span.glyphicon.glyphicon-stats &nbsp;
+              | GPA: 3.68
+            li.list-group-item
+              span.glyphicon.glyphicon-calendar &nbsp;
+              | Graduation: 2016
+      .row.ed-pg-profile-row
+        h1(style='text-align: center') REMINDERS CARD
+      .row.ed-pg-profile-row
+        h1(style='text-align: center') UPCOMING EVENTS CARD
+      .row.ed-pg-profile-row
+        h1(style='text-align: center') SCHEDULE/CALENDAR CARD
+    //HOME.YOU ENDS HERE
+   .col-md-3
+     input.form-control(type='text', placeholder='Search')
+     script(src='javascripts/jquery-1.11.1.js')
+     script(src='javascripts/bootstrap.js')

@@ -1,0 +1,29 @@
+﻿doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/edloginstyle.css')
+   
+
+ body
+    .container
+      .title
+        h1.ed-title #{title}
+        h3.ed-slogan "Making College Cool"
+        h3
+      form.form-signin(role='form')
+        h2.form-signin-heading Please sign in
+        input.form-control(type='email', placeholder='Email Adress', required='', autofocus='')
+        input.form-control(type='password', placeholder='password', required='')
+        .checkbox
+          label
+            input(type='checkbox', value='remember-me')
+            | Remember Me
+        button.btn.btn-lg.btn-primary.btn-block Sign In
+      #edfblogin
+        p(style='font-size: 18px;') OR
+        h2.form-signing-heading(style='padding: 0; margin: 0 auto;') Login with Facebook
+    script(src='js/jquery-1.11.1.js')
+    script(src='js/bootstrap.js')

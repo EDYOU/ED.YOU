@@ -1,0 +1,15 @@
+{
+  "name": "ed.you",
+  "version": "0.0.0",
+  "description": "ed.you",
+  "main": "app.js",
+  "author": {
+    "name": "Saleh",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
