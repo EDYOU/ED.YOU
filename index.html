@@ -6,8 +6,9 @@
 	<title>ED.YOU</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/edpgstyle.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<!--<link rel="stylesheet" href="css/bootstrap-theme.css"> -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,34 +22,125 @@
 
 <body>
 
-	<script type="text/javascript">
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '{817522544938339}',
-          xfbml      : true,
-          version    : 'v2.0'
-        });
-      };
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script> 
+<div class="container ed-pg-container">
+	
+
+	<div class="row ed-pg-row">
+		<div class="col-xs-12 col-md-8">
+			<div class="page-header">
+				<h1 class="ed-pg-title">ED.YOU</h1>
+			</div>
+		</div>
+		
+		
+	</div>
+	
+
+	<div class="row">
+		<div class="col-md-3">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      				</div>
+
+      						
+      				
+      				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      					<ul class="nav nav-pills nav-stacked">
+      						<!--<li><input type="text" class="form-control" placeholder="Search"></li> -->
+							<li class="nav-divider"></li>
+							<li class="active">
+								<a href="#">
+									<span class="glyphicon glyphicon-home"></span>
+									HOME.YOU
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="glyphicon glyphicon-pencil"></span>
+									COURSE.YOU
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="glyphicon glyphicon-book"></span>
+									BOOK.YOU
+									</a>
+								</li>
+							<li class="nav-divider"></li>
+							<li>
+								<a href="#">
+									<span class="glyphicon glyphicon-cog"></span>
+									SETTINGS
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+
+		<div style="border: 1px solid black" class="col-md-6">
+			<div style="border: 1px solid green" class="row">
+				<div style="border: 1px solid red" class="col-xs-6">
+					<div class="thumbnail ed-pg-thumbnail">
+						<img data-src="holder.js/100%x180" src="img/test1.jpg">
+					</div>
+				</div>
+
+				<div style="border: 1px solid red" class="col-xs-6"></div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<input type="text" class="form-control" placeholder="Search">
+		</div>
+	</div>
+	
+	
+</div>
+	
+
+	
 
 
-	<div class="container">
+   
+
+
+<!--<div class="container">
 		<div class="jumbotron">
 			<h1>Welcome to ED.YOU</h1>
-	</div>
-			
-			
-		<div class="fb-login-button" data-max-rows="1" data-size="xlarge"data-show-faces="false" data-auto-logout-link="true"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				 
+				<ul class="nav nav-pills nav-stacked">
+					<li class="nav-divider"></li>
+					<li class="active"><a href="#">HOME.YOU</a></li>
+					<li><a href="#">COURSE.YOU</a></li>
+					<li><a href="#">BOOK.YOU</a></li>
+					<li class="nav-divider"></li>
+					<li><a href="#">SETTINGS</a></li>
+				</ul>
 
-	</div>
+			</div>
+			<div class="col-md-6"></div>
+			<div class="col-md-3"></div>
+		</div>
+	
+			
+			
+
+	</div>-->
 
 
 

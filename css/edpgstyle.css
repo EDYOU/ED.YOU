@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('fonts/oswald-regular-webfont.eot');
+    src: url('fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-regular-webfont.woff') format('woff'),
+         url('fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('fonts/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('fonts/oswald-light-webfont.eot');
+    src: url('fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-light-webfont.woff') format('woff'),
+         url('fonts/oswald-light-webfont.ttf') format('truetype'),
+         url('fonts/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ed-pg-title {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'oswaldbook';
+	font-size: 3em;
+}
+
+.ed-pg-row {
+	margin-bottom: 3px;
+}
+
+.ed-pg-container {
+	margin-top: 10%;
+}
+
+.ed-pg-thumbnail {
+	height: ;
+	width: 180px;
+}
