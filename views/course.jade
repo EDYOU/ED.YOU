@@ -1,0 +1,81 @@
+extends layout
+
+block pageContent
+ .col-md-6
+  .row.ed-pg-book-row
+    .dropdown(style='width: 50%; margin: 0 auto;')
+      button#dropdownMenu1.btn.btn-default.dropdown-toggle(style='width: 100%;', type='button', data-toggle='dropdown')
+        | Select Course Section
+        span.caret
+      ul.dropdown-menu(style='width: 100%', role='menu', aria-labelledby='dropdownMenu1')
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') CSC
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') MATH
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') ENG
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') PHIL
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') BECA
+    div(style='width: 50%; margin: 0 auto;')
+      input.form-control(type='text', placeholder='Course Number')
+    .dropdown(style='width: 50%; margin: 0 auto;')
+      button#dropdownMenu1.btn.btn-default.dropdown-toggle(style='width: 100%;', type='button', data-toggle='dropdown')
+        | Select Grade
+        span.caret
+      ul.dropdown-menu(style='width: 100%', role='menu', aria-labelledby='dropdownMenu1')
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') A
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') B
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') C
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') D
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') F
+    .dropdown(style='width: 50%; margin: 0 auto;')
+      button#dropdownMenu1.btn.btn-default.dropdown-toggle(style='width: 100%;', type='button', data-toggle='dropdown')
+        | Select Credit Count
+        span.caret
+      ul.dropdown-menu(style='width: 100%', role='menu', aria-labelledby='dropdownMenu1')
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 1
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 2
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 3
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 4
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 5
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 6
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 7
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 8
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 9
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 10
+    .dropdown(style='width: 50%; margin: 0 auto;')
+      button#dropdownMenu1.btn.btn-default.dropdown-toggle(style='width: 100%;', type='button', data-toggle='dropdown')
+        | Select Semester
+        span.caret
+      ul.dropdown-menu(style='width: 100%', role='menu', aria-labelledby='dropdownMenu1')
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 1
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 2
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 3
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 4
+        li(role='presentation')
+          a(role='menuitem', tabindex='-1', href='#') 5
+    div(style='width: 50%; margin: 0 auto;')
+      button.btn.btn-success.ed-bk-btn(style='width: 100%;  font-size: 16px; background-color: #8ABE9B; color: #4A6D8B; margin-top: 4px;', type='button') Add Class
+script(src='js/jquery-1.11.1.js')
+script(src='js/bootstrap.js')

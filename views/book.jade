@@ -1,1 +1,46 @@
-﻿
+extends layout
+
+block pageContent
+  .col-md-6.animated.fadeInUp
+      .row.ed-pg-book-row
+        .col-xs-12.col-md-8
+          input.form-control(type='text', placeholder='Search Books')
+        .col-xs-6.col-md-4
+          button.ed-bk-btn(type='button') Browse Books
+      .row.ed-pg-book-row
+        .dropdown(style='width: 50%; margin: 0 auto;')
+          button#dropdownMenu1.btn.btn-default.dropdown-toggle(style='width: 100%;', type='button', data-toggle='dropdown')
+            | Pick your college
+            span.caret
+          ul.dropdown-menu(style='width: 100%', role='menu', aria-labelledby='dropdownMenu1')
+            li(role='presentation')
+              a(role='menuitem', tabindex='-1', href='#') San Jose State
+            li(role='presentation')
+              a(role='menuitem', tabindex='-1', href='#') San Francisco State
+            li(role='presentation')
+              a(role='menuitem', tabindex='-1', href='#') University of California Berkley
+            li.divider(role='presentation')
+            li(role='presentation')
+              a(role='menuitem', tabindex='-1', href='#') University of California San Francisco
+      .row.ed-pg-book-row
+        form(style='padding: 10px', role='form')
+          .form-group
+            label(for='bookTitle') Book Title
+            input#bookTitle.form-control(type='text', placeholder='Enter Book Title')
+          .form-group
+            label(for='exampleInputPassword1') Author
+            input#bookAuthor.form-control(type='text', placeholder='Author')
+          .form-group
+            label(for='exampleInputPassword1') ISBN
+            input#bookIsbn.form-control(type='text', placeholder='ISBN Number')
+          .form-group
+            label(for='exampleInputFile') File input
+            input#exampleInputFile(type='file')
+            p.help-block Upload a image of your book
+          button.ed-bk-btn(type='submit') Submit
+    
+
+    .col-md-3.animated.fadeInRight
+       input.form-control(type='text', placeholder='Search the site')
+script(src='js/jquery-1.11.1.js')
+script(src='js/bootstrap.js')

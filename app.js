@@ -7,6 +7,8 @@ var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
 var login = require('./routes/login.js');
+var book = require('./routes/book.js');
+var course = require('./routes/course.js');
 var http = require('http');
 var path = require('path');
 
@@ -31,7 +33,9 @@ if ('development' == app.get('env')) {
 }
 
 
-app.get('/hello', routes.index);
+app.get('/home', routes.index);
+app.get('/book', book.books);
+app.get('/courses', course.courses);
 app.get('/', login.home);
 app.get('/users', user.list);
 
